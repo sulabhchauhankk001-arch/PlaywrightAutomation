@@ -13,6 +13,7 @@ test.beforeAll(async ({ request }) => {
     const responseBody = await response.json();
     token = `Bearer ${responseBody.token}`
     console.log(token);
+    console.log(token);
 });
 
 test("verify booking list", async ({ request }) => {
